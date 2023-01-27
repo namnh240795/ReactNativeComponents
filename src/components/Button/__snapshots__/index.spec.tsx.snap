@@ -1,0 +1,549 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button click event 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FBB931",
+      "borderRadius": 16,
+      "display": "flex",
+      "marginLeft": 16,
+      "marginRight": 16,
+      "opacity": 1,
+      "paddingBottom": 12,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 12,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Object {
+        "color": "#212529",
+      }
+    }
+  >
+    Click here!
+  </Text>
+</View>
+`;
+
+exports[`Render button disable 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#E9ECEF",
+      "borderRadius": 16,
+      "display": "flex",
+      "marginLeft": 16,
+      "marginRight": 16,
+      "paddingBottom": 12,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 12,
+    }
+  }
+  title=""
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Object {
+        "color": "#ADB5BD",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Render margin all button 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FBB931",
+      "borderRadius": 16,
+      "display": "flex",
+      "marginBottom": 8,
+      "marginLeft": 8,
+      "marginRight": 8,
+      "marginTop": 8,
+      "opacity": 1,
+      "paddingBottom": 12,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 12,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Object {
+        "color": "#212529",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Render margin hv button 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FBB931",
+      "borderRadius": 16,
+      "display": "flex",
+      "marginBottom": 0,
+      "marginLeft": 2,
+      "marginRight": 2,
+      "marginTop": 0,
+      "opacity": 1,
+      "paddingBottom": 12,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 12,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Object {
+        "color": "#212529",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Render margin width array button 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FBB931",
+      "borderRadius": 16,
+      "display": "flex",
+      "marginBottom": 0,
+      "marginLeft": 4,
+      "marginRight": 2,
+      "marginTop": 0,
+      "opacity": 1,
+      "paddingBottom": 12,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 12,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Object {
+        "color": "#212529",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Render padding all button 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FBB931",
+      "borderRadius": 16,
+      "display": "flex",
+      "marginLeft": 16,
+      "marginRight": 16,
+      "opacity": 1,
+      "paddingBottom": 8,
+      "paddingLeft": 8,
+      "paddingRight": 8,
+      "paddingTop": 8,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Object {
+        "color": "#212529",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Render padding hv button 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FBB931",
+      "borderRadius": 16,
+      "display": "flex",
+      "marginLeft": 16,
+      "marginRight": 16,
+      "opacity": 1,
+      "paddingBottom": 0,
+      "paddingLeft": 2,
+      "paddingRight": 2,
+      "paddingTop": 0,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Object {
+        "color": "#212529",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Render padding width array button 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FBB931",
+      "borderRadius": 16,
+      "display": "flex",
+      "marginLeft": 16,
+      "marginRight": 16,
+      "opacity": 1,
+      "paddingBottom": 0,
+      "paddingLeft": 4,
+      "paddingRight": 2,
+      "paddingTop": 0,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Object {
+        "color": "#212529",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Render size button large 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FBB931",
+      "borderRadius": 16,
+      "display": "flex",
+      "flex": 1,
+      "marginLeft": 16,
+      "marginRight": 16,
+      "opacity": 1,
+      "paddingBottom": 12,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 12,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Object {
+        "color": "#212529",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Render size button medium 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FBB931",
+      "borderRadius": 16,
+      "display": "flex",
+      "flex": 0.5,
+      "marginLeft": 16,
+      "marginRight": 16,
+      "opacity": 1,
+      "paddingBottom": 12,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 12,
+      "width": "50%",
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Object {
+        "color": "#212529",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Render type button black 05 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F8F9FA",
+      "borderRadius": 16,
+      "display": "flex",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "opacity": 1,
+      "paddingBottom": 12,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 12,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Object {
+        "color": "#6C757D",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Render type button brand 01 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FBB931",
+      "borderRadius": 16,
+      "display": "flex",
+      "flex": 1,
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "opacity": 1,
+      "paddingBottom": 12,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 12,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Object {
+        "color": "#212529",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Render type button brand 03 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FFF3D9",
+      "borderRadius": 16,
+      "display": "flex",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "opacity": 1,
+      "paddingBottom": 12,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 12,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Object {
+        "color": "#F88F22",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Render type button default 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#FBB931",
+      "borderRadius": 16,
+      "display": "flex",
+      "marginLeft": 16,
+      "marginRight": 16,
+      "opacity": 1,
+      "paddingBottom": 12,
+      "paddingLeft": 24,
+      "paddingRight": 24,
+      "paddingTop": 12,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    style={
+      Object {
+        "color": "#212529",
+      }
+    }
+  />
+</View>
+`;

@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render DITTO_140 circle 40 box 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#565CE3",
+      "borderRadius": 20,
+      "height": 40,
+      "width": 40,
+    }
+  }
+/>
+`;
+
+exports[`Render GOLBAT_120 box 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#343A40",
+    }
+  }
+/>
+`;
+
+exports[`Render align box 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "center",
+      "flexDirection": "row",
+      "justifyContent": "center",
+    }
+  }
+/>
+`;
+
+exports[`Render border all box 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomLeftRadius": 8,
+      "borderBottomRightRadius": 8,
+      "borderTopLeftRadius": 8,
+      "borderTopRightRadius": 8,
+    }
+  }
+/>
+`;
+
+exports[`Render custom color square 40 box 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "height": 40,
+      "width": 40,
+    }
+  }
+/>
+`;
+
+exports[`Render empty box 1`] = `
+<View
+  style={Object {}}
+/>
+`;
+
+exports[`Render flex 1 box 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+/>
+`;
+
+exports[`Render flexWrap box 1`] = `
+<View
+  style={
+    Object {
+      "flexWrap": "wrap",
+    }
+  }
+/>
+`;
+
+exports[`Render height 100 box 1`] = `
+<View
+  style={
+    Object {
+      "height": 100,
+    }
+  }
+/>
+`;
+
+exports[`Render margin all box 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 8,
+      "marginLeft": 8,
+      "marginRight": 8,
+      "marginTop": 8,
+    }
+  }
+/>
+`;
+
+exports[`Render margin hv box 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 0,
+      "marginLeft": 2,
+      "marginRight": 2,
+      "marginTop": 0,
+    }
+  }
+/>
+`;
+
+exports[`Render margin undefined box 1`] = `
+<View
+  style={Object {}}
+/>
+`;
+
+exports[`Render margin with number array box 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 0,
+      "marginLeft": 4,
+      "marginRight": 2,
+      "marginTop": 0,
+    }
+  }
+/>
+`;
+
+exports[`Render min height 100 box 1`] = `
+<View
+  style={
+    Object {
+      "minHeight": 100,
+    }
+  }
+/>
+`;
+
+exports[`Render min width 100 box 1`] = `
+<View
+  style={
+    Object {
+      "minWidth": 100,
+    }
+  }
+/>
+`;
+
+exports[`Render padding all box 1`] = `
+<View
+  style={
+    Object {
+      "paddingBottom": 8,
+      "paddingLeft": 8,
+      "paddingRight": 8,
+      "paddingTop": 8,
+    }
+  }
+/>
+`;
+
+exports[`Render padding hv box 1`] = `
+<View
+  style={
+    Object {
+      "paddingBottom": 0,
+      "paddingLeft": 2,
+      "paddingRight": 2,
+      "paddingTop": 0,
+    }
+  }
+/>
+`;
+
+exports[`Render padding width array box 1`] = `
+<View
+  style={
+    Object {
+      "paddingBottom": 0,
+      "paddingLeft": 4,
+      "paddingRight": 2,
+      "paddingTop": 0,
+    }
+  }
+/>
+`;
+
+exports[`Render pressable box 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "opacity": 1,
+    }
+  }
+/>
+`;
+
+exports[`Render width 100 box 1`] = `
+<View
+  style={
+    Object {
+      "width": 100,
+    }
+  }
+/>
+`;

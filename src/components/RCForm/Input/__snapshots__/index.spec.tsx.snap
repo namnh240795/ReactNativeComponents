@@ -1,0 +1,481 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render disable input 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "fontFamily": "Poppins-Regular",
+      "padding": 10,
+    }
+  }
+>
+  <View
+    pointerEvents="none"
+    style={
+      Object {
+        "backgroundColor": "#F8F9FA",
+        "borderRadius": 10,
+        "display": "flex",
+        "flexDirection": "row",
+        "marginBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <TextInput
+        editable={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={false}
+        style={
+          Object {
+            "fontFamily": "Poppins-Light",
+            "fontSize": 16,
+            "lineHeight": 24,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Render empty input 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    pointerEvents="auto"
+    style={
+      Object {
+        "backgroundColor": "#F8F9FA",
+        "borderRadius": 10,
+        "display": "flex",
+        "flexDirection": "row",
+        "marginBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <TextInput
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={false}
+        style={
+          Object {
+            "fontFamily": "Poppins-Light",
+            "fontSize": 16,
+            "lineHeight": 24,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Render input with prefix 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    pointerEvents="auto"
+    style={
+      Object {
+        "backgroundColor": "#F8F9FA",
+        "borderRadius": 10,
+        "display": "flex",
+        "flexDirection": "row",
+        "marginBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <TextInput
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={false}
+        style={
+          Object {
+            "fontFamily": "Poppins-Light",
+            "fontSize": 16,
+            "lineHeight": 24,
+          }
+        }
+      />
+    </View>
+    paste
+  </View>
+</View>
+`;
+
+exports[`Render input with suffix 1`] = `
+<View
+  style={Object {}}
+>
+  <View
+    pointerEvents="auto"
+    style={
+      Object {
+        "backgroundColor": "#F8F9FA",
+        "borderRadius": 10,
+        "display": "flex",
+        "flexDirection": "row",
+        "marginBottom": 4,
+      }
+    }
+  >
+    suffix
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <TextInput
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={false}
+        style={
+          Object {
+            "fontFamily": "Poppins-Light",
+            "fontSize": 16,
+            "lineHeight": 24,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Render margin all input 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 8,
+      "marginLeft": 8,
+      "marginRight": 8,
+      "marginTop": 8,
+    }
+  }
+>
+  <View
+    pointerEvents="auto"
+    style={
+      Object {
+        "backgroundColor": "#F8F9FA",
+        "borderRadius": 10,
+        "display": "flex",
+        "flexDirection": "row",
+        "marginBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <TextInput
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={false}
+        style={
+          Object {
+            "fontFamily": "Poppins-Light",
+            "fontSize": 16,
+            "lineHeight": 24,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Render margin hv input 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 0,
+      "marginLeft": 2,
+      "marginRight": 2,
+      "marginTop": 0,
+    }
+  }
+>
+  <View
+    pointerEvents="auto"
+    style={
+      Object {
+        "backgroundColor": "#F8F9FA",
+        "borderRadius": 10,
+        "display": "flex",
+        "flexDirection": "row",
+        "marginBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <TextInput
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={false}
+        style={
+          Object {
+            "fontFamily": "Poppins-Light",
+            "fontSize": 16,
+            "lineHeight": 24,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Render margin width array input 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 0,
+      "marginLeft": 4,
+      "marginRight": 2,
+      "marginTop": 0,
+    }
+  }
+>
+  <View
+    pointerEvents="auto"
+    style={
+      Object {
+        "backgroundColor": "#F8F9FA",
+        "borderRadius": 10,
+        "display": "flex",
+        "flexDirection": "row",
+        "marginBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <TextInput
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={false}
+        style={
+          Object {
+            "fontFamily": "Poppins-Light",
+            "fontSize": 16,
+            "lineHeight": 24,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Render padding all input 1`] = `
+<View
+  style={
+    Object {
+      "paddingBottom": 8,
+      "paddingLeft": 8,
+      "paddingRight": 8,
+      "paddingTop": 8,
+    }
+  }
+>
+  <View
+    pointerEvents="auto"
+    style={
+      Object {
+        "backgroundColor": "#F8F9FA",
+        "borderRadius": 10,
+        "display": "flex",
+        "flexDirection": "row",
+        "marginBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <TextInput
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={false}
+        style={
+          Object {
+            "fontFamily": "Poppins-Light",
+            "fontSize": 16,
+            "lineHeight": 24,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Render padding hv input 1`] = `
+<View
+  style={
+    Object {
+      "paddingBottom": 0,
+      "paddingLeft": 2,
+      "paddingRight": 2,
+      "paddingTop": 0,
+    }
+  }
+>
+  <View
+    pointerEvents="auto"
+    style={
+      Object {
+        "backgroundColor": "#F8F9FA",
+        "borderRadius": 10,
+        "display": "flex",
+        "flexDirection": "row",
+        "marginBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <TextInput
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={false}
+        style={
+          Object {
+            "fontFamily": "Poppins-Light",
+            "fontSize": 16,
+            "lineHeight": 24,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Render padding width array input 1`] = `
+<View
+  style={
+    Object {
+      "paddingBottom": 0,
+      "paddingLeft": 4,
+      "paddingRight": 2,
+      "paddingTop": 0,
+    }
+  }
+>
+  <View
+    pointerEvents="auto"
+    style={
+      Object {
+        "backgroundColor": "#F8F9FA",
+        "borderRadius": 10,
+        "display": "flex",
+        "flexDirection": "row",
+        "marginBottom": 4,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 16,
+        }
+      }
+    >
+      <TextInput
+        editable={true}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        secureTextEntry={false}
+        style={
+          Object {
+            "fontFamily": "Poppins-Light",
+            "fontSize": 16,
+            "lineHeight": 24,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;

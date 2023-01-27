@@ -1,0 +1,16 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Completeness */
+    "typeRoots": ["./types"],
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "paths": {
+      "@src/*": ["src/*"]
+    },   
+    "baseUrl": "./",
+    "types": ["@types/jest"]
+  },
+  "exclude": ["scripts/*"],
+}
