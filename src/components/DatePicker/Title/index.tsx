@@ -13,9 +13,9 @@ export interface TitleRef {
 
 const Title = forwardRef(({activeMonth}: TitleProps, ref: Ref<TitleRef>) => {
   const [month, setMonth] = useState<Dayjs>(activeMonth);
-  console.log(month);
 
   useImperativeHandle(ref, () => ({setMonth}), []);
+
   return (
     <Box height={40} justify="center" margin={[8, 0]} align="center">
       <Typography>{month.format('MMM YYYY')}</Typography>

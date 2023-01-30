@@ -1,10 +1,10 @@
-import React, {useMemo, useRef} from 'react';
-import dayjs, {Dayjs} from 'dayjs';
-import {Typography} from '../Typography';
+import React, { useMemo, useRef } from 'react';
+import dayjs, { Dayjs } from 'dayjs';
+import { Typography } from '../Typography';
 import Box from '../Box';
-import Day, {DayRef} from './Day';
-import {debounce} from 'lodash';
-import Title, {TitleRef} from './Title';
+import Day, { DayRef } from './Day';
+import { debounce } from 'lodash';
+import Title, { TitleRef } from './Title';
 
 interface Refs {
   [key: string | number]: DayRef | null;
@@ -47,7 +47,7 @@ export const DatePicker = () => {
         }
       },
       200,
-      {leading: true},
+      { leading: true },
     ),
   ).current;
 
@@ -57,7 +57,8 @@ export const DatePicker = () => {
       align="center"
       justify="center"
       padding={10}
-      background="BULBASAUR_140">
+      background="BULBASAUR_140"
+    >
       <Box flexDirection="row" gap={8} justify="space-between" width={328}>
         <Title activeMonth={today} ref={ref => (titleRef.current = ref)} />
         <Box flexDirection="row" gap={8} margin={[8, 0]}>
@@ -84,7 +85,8 @@ export const DatePicker = () => {
                   refs.current[i]?.toggle();
                 }
               }
-            }}>
+            }}
+          >
             <Typography>{'<'}</Typography>
           </Box>
           <Box
@@ -97,7 +99,6 @@ export const DatePicker = () => {
               const nextMonth = getDays(today);
               titleRef.current?.setMonth(today);
               for (let index in days) {
-                console.log(days);
                 await refs.current[index]?.setD(nextMonth[index]);
               }
 
@@ -112,7 +113,8 @@ export const DatePicker = () => {
                   refs.current[i]?.toggle();
                 }
               }
-            }}>
+            }}
+          >
             <Typography>{'>'}</Typography>
           </Box>
         </Box>
@@ -122,13 +124,15 @@ export const DatePicker = () => {
         width={328}
         flexWrap="wrap"
         gap={8}
-        background={'BULBASAUR_140'}>
+        background={'BULBASAUR_140'}
+      >
         {['S', 'M', 'T', 'W', 'T', 'F', 'S'].map((day, index) => (
           <Box
             square={40}
             justify="center"
             align="center"
-            key={`date-${index}`}>
+            key={`date-${index}`}
+          >
             <Typography>{day}</Typography>
           </Box>
         ))}
@@ -138,7 +142,8 @@ export const DatePicker = () => {
         width={328}
         flexWrap="wrap"
         gap={8}
-        background={'BULBASAUR_140'}>
+        background={'BULBASAUR_140'}
+      >
         {days.map((day, index) => (
           <Day
             index={index}
