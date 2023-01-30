@@ -1,7 +1,7 @@
-import {COLORS} from '@src/atoms/theme/constants/colors';
+import { COLORS } from '@src/atoms/theme/constants/colors';
 import Box from '@src/components/Box';
-import {Typography} from '@src/components/Typography';
-import {Dayjs} from 'dayjs';
+import { Typography } from '@src/components/Typography';
+import { Dayjs } from 'dayjs';
 import React, {
   forwardRef,
   Ref,
@@ -28,11 +28,11 @@ export interface DayRef {
   toggle: Function;
   setD: Function;
   getActive: Function;
-  getD: () => Dayjs;
+  getD: () => Dayjs | null;
 }
 
 const Day = forwardRef(
-  ({day, onPress, isActive, index}: DayProps, ref: Ref<DayRef>) => {
+  ({ day, onPress, isActive, index }: DayProps, ref: Ref<DayRef>) => {
     const active = useSharedValue(isActive ? 1 : 0);
     const [d, setD] = useState<Dayjs | null>(day);
 
@@ -93,7 +93,8 @@ const Day = forwardRef(
           circle={40}
           onPress={handlePress}
           justify="center"
-          align="center">
+          align="center"
+        >
           <Typography>{d?.get('date')}</Typography>
         </Box>
       </Animated.View>
